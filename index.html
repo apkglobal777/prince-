@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Space Research Center</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.cosmic-bg{background-color:#0f131f;background-image:radial-gradient(ellipse 80% 50% at 50% -20%,rgba(6,182,212,0.15),transparent),linear-gradient(to right,rgba(134,147,151,0.05) 1px,transparent 1px),linear-gradient(to bottom,rgba(134,147,151,0.05) 1px,transparent 1px);background-size:100% 100%,48px 48px,48px 48px;}.glow-cyan{box-shadow:0 0 20px -4px rgba(6,182,212,0.35);}.glow-cyan:hover{box-shadow:0 0 24px rgba(6,182,212,0.6);}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-fixed-dim": "#adc6ff", "on-tertiary-container": "#4900ae", "surface-container-low": "#171b28", "surface-container": "#1b1f2c", "surface-dim": "#0f131f", "inverse-primary": "#00687a", "surface-container-highest": "#313442", "on-secondary": "#002e6a", "error-container": "#93000a", "primary-fixed-dim": "#4cd7f6", "on-error": "#690005", "error": "#ffb4ab", "tertiary-fixed": "#e9ddff", "outline": "#869397", "tertiary-container": "#b395ff", "surface-variant": "#313442", "primary-fixed": "#acedff", "on-tertiary": "#3c0091", "surface-container-lowest": "#0a0e1a", "on-surface": "#dfe1f4", "inverse-on-surface": "#2c303e", "on-primary-fixed-variant": "#004e5c", "on-secondary-fixed-variant": "#004395", "secondary": "#adc6ff", "on-secondary-container": "#e6ecff", "secondary-fixed": "#d8e2ff", "on-tertiary-fixed": "#23005c", "surface-container-high": "#262937", "outline-variant": "#3d494c", "surface": "#0f131f", "on-primary": "#003640", "on-primary-container": "#00424f", "tertiary-fixed-dim": "#d0bcff", "surface-bright": "#353947", "on-primary-fixed": "#001f26", "on-background": "#dfe1f4", "surface-tint": "#4cd7f6", "primary-container": "#06b6d4", "background": "#0f131f", "on-secondary-fixed": "#001a42", "secondary-container": "#0566d9", "on-error-container": "#ffdad6", "on-tertiary-fixed-variant": "#5516be", "on-surface-variant": "#bcc9cd", "inverse-surface": "#dfe1f4", "primary": "#4cd7f6", "tertiary": "#d0bcff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-lg": "1.5rem", "space-md": "1rem", "space-xs": "0.25rem", "gutter-mobile": "0.75rem", "margin-mobile": "1rem", "space-xl": "2.5rem", "margin": "2rem", "gutter": "1.5rem", "space-sm": "0.5rem" }, "fontFamily": { "headline-lg-mobile": [ "Space Grotesk" ], "headline-lg": [ "Space Grotesk" ], "body-sm": [ "Inter" ], "headline-sm": [ "Space Grotesk" ], "display": [ "Space Grotesk" ], "display-mobile": [ "Space Grotesk" ], "label-sm": [ "Space Grotesk" ], "body-lg": [ "Inter" ], "headline-md": [ "Space Grotesk" ], "label-md": [ "Space Grotesk" ], "body-md": [ "Inter" ] }, "fontSize": { "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "500" } ], "display": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "display-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-md": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0.01em", "fontWeight": "400" } ] } } } };</script></head><body class="cosmic-bg font-body-md text-body-md text-on-surface min-h-screen antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_4px_24px_rgba(0,0,0,0.6)]"><div class="h-20 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shadow-[0_0_12px_rgba(6,182,212,0.3)]"><span class="material-symbols-outlined text-[24px]">rocket_launch</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface uppercase">Space Research Center</span><span class="font-label-sm text-label-sm tracking-widest text-primary font-semibold">EST. 2001 | INTERNATIONAL ASTRONOMY &amp; AEROSPACE</span></div></div><nav class="hidden xl:flex items-center gap-space-md" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm"><a aria-current="page" class="uppercase tracking-wider transition-colors py-space-xs px-space-sm rounded-lg bg-primary-container text-on-primary-container font-headline-sm" data-path="home" href="#">Home</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-space-xs px-space-sm rounded-lg" data-path="about" href="#">About</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-space-xs px-space-sm rounded-lg" data-path="research" href="#">Research</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-space-xs px-space-sm rounded-lg" data-path="missions" href="#">Missions</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-space-xs px-space-sm rounded-lg" data-path="discoveries" href="#">Discoveries</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-space-xs px-space-sm rounded-lg" data-path="scientists" href="#">Scientists</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-space-xs px-space-sm rounded-lg" data-path="news" href="#">News</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors py-space-xs px-space-sm rounded-lg" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden md:inline-flex items-center gap-space-xs px-space-md py-space-xs bg-primary-container text-on-primary-container font-headline-sm text-label-md uppercase tracking-wider rounded-lg glow-cyan transition-all duration-300 font-semibold" data-path="research" href="#">Explore Our Research<span class="material-symbols-outlined text-[16px]">north_east</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 cosmic-bg min-h-screen"><div class="flex flex-col w-full text-on-surface">
+<!-- 1. HERO SECTION -->
+<section class="relative min-h-[92vh] flex flex-col justify-between overflow-hidden px-gutter py-space-xl">
+<!-- Hero Background with scrim -->
+<div class="absolute inset-0 z-0 bg-cover bg-center" data-alt="Breathtaking deep space orbital view showing planet Earth illuminated at night with glowing city lights, adjacent to a high-tech orbital space station satellite with solar arrays, framed against cosmic nebulae, interstellar dust clouds, and distant spiral galaxies in deep electric cyan and violet starlight." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAjSlRh59sk5fsA9wpq6FlcDcoi0RXWnnNROf5VB8TrP8InMcEKHattQS-zWVGwIaHTS6bJm732CDaxqWgptKTZzw0RTcdxr3BdkvJvm3_3_YIGYsV6I2dOR-wulFVmxvawkgfnG6J69cfn4VB9vrKaZk3EgEULe5z9JR9cIlMYW1BeR25h6UoZf1r8kQnNTReM72CugfOA8FzB6OlDdTSV0lCNiZe3bT6vbudtUbh5-Wm8FRwkPeGc')">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-surface-dim/75 to-surface-dim/40 backdrop-blur-[2px]"></div>
+<canvas class="absolute inset-0 w-full h-full pointer-events-none opacity-60" id="hero-stars"></canvas>
+</div>
+<!-- Top Badge & Header Content -->
+<div class="relative z-10 max-w-5xl flex flex-col items-start gap-space-md pt-space-xl">
+<!-- Pill Badge -->
+<div class="inline-flex items-center gap-space-sm px-space-md py-space-xs rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-md">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold">
+          🚀 INTERNATIONAL ASTROPHYSICS &amp; DEEP SPACE EXPLORATION
+        </span>
+</div>
+<!-- Main Display Title -->
+<h1 class="font-display text-display tracking-tight text-on-surface">
+        Exploring Space. <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary-fixed to-tertiary">
+          Discovering the Future.
+        </span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+        Advancing humanity's understanding of the cosmos through empirical astrophysics, deep-field observational arrays, next-generation planetary instrumentation, and quantum propulsion technologies.
+      </p>
+<!-- Dual Call to Actions -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider glow-cyan transition-all duration-300 font-semibold shadow-lg hover:scale-[1.02]" href="#research">
+<span>Explore Research</span>
+<span class="material-symbols-outlined text-[20px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container-high/80 text-on-surface font-headline-sm text-headline-sm uppercase tracking-wider backdrop-blur-md transition-all duration-300 hover:bg-surface-container-highest shadow-md" href="#missions">
+<span>View Missions</span>
+<span class="material-symbols-outlined text-[20px]">explore</span>
+</a>
+</div>
+</div>
+<!-- Live Telemetry Metrics Glass Bar -->
+<div class="relative z-10 w-full mt-space-xl">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md p-space-md rounded-xl bg-surface-container-lowest/80 backdrop-blur-xl shadow-xl">
+<div class="flex flex-col p-space-sm bg-surface-container-low/50 rounded-lg">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Operational Era</span>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">25+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Years of Research</span>
+</div>
+</div>
+<div class="flex flex-col p-space-sm bg-surface-container-low/50 rounded-lg">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Flight Registry</span>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-headline-lg text-headline-lg text-secondary font-bold">40+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Active &amp; Completed</span>
+</div>
+</div>
+<div class="flex flex-col p-space-sm bg-surface-container-low/50 rounded-lg">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Faculty &amp; Fellows</span>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-headline-lg text-headline-lg text-tertiary font-bold">120+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Astrophysicists</span>
+</div>
+</div>
+<div class="flex flex-col p-space-sm bg-surface-container-low/50 rounded-lg">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Cosmic Milestones</span>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-headline-lg text-headline-lg text-primary-fixed font-bold">15+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Catalogued Breakthroughs</span>
+</div>
+</div>
+</div>
+<!-- Scroll indicator -->
+<div class="flex justify-center items-center gap-space-xs text-outline mt-space-md animate-bounce">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">SCROLL TO DISCOVER</span>
+<span class="material-symbols-outlined text-[16px] text-primary">expand_more</span>
+</div>
+</div>
+</section>
+<!-- 2. ABOUT SPACE RESEARCH CENTER -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-xl" id="about">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">ABOUT OUR INSTITUTION</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Pushing the Boundaries of Human Knowledge</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+        The Space Research Center operates inter-agency observatories and high-energy physics laboratories dedicated to unraveling the fundamental laws of gravity, interstellar planetary formation, and cosmic origins.
+      </p>
+</div>
+<!-- 3 Pillars Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col gap-space-sm hover:bg-surface-container/70 transition-all">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[28px]">auto_awesome</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Scientific Research</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Pioneering astrophysical inquiries into dark matter candidates, multi-wavelength cosmic ray tomography, relativistic astrophysics, and early-universe cosmological nucleosynthesis.
+        </p>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider mt-auto pt-space-sm">Astronomy • Astrophysics • Cosmology</span>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col gap-space-sm hover:bg-surface-container/70 transition-all">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shadow-sm">
+<span class="material-symbols-outlined text-[28px]">satellite_alt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Space Technology</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Designing ultra-reliable avionics, high-throughput Ka-band beamformers, laser telecommunications for deep space relays, and sub-kelvin optical detector cryostats.
+        </p>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mt-auto pt-space-sm">Satellites • Instruments • Networks</span>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col gap-space-sm hover:bg-surface-container/70 transition-all">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary shadow-sm">
+<span class="material-symbols-outlined text-[28px]">public</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Planetary Exploration</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Spearheading automated robotic in-situ geological surveys of lunar south polar craters, martian sub-permafrost brine systems, and outer system icy moon geysers.
+        </p>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider mt-auto pt-space-sm">Mars • Moon • Asteroid Belts</span>
+</div>
+</div>
+<!-- Facility Visual Showcase with Callouts -->
+<div class="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-surface-container-lowest">
+<div class="w-full h-[420px] bg-cover bg-center" data-alt="Advanced aerospace cleanroom laboratory with specialized aerospace scientists and payload engineers in white bunny suits calibrating a complex high-gain satellite chassis under crisp clinical fluorescent and teal laboratory lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAd5cKzJbcvVPh4b4rcKnhCtjgYHwlTMdaGfhAwXv49OeVxluQ_v-gE-QgihHl3mUSWlhRNdM0jqVCUPlzoAi9Te_3Vre0yAJeWWJU2YAyWjDYAh5Ubw5Jr8zC6LSyC4Eh77GSieSaRQYDVD5Yp-7CQqIIItERZR1Or4TB7djL20VMYSqhh5Uh_YDNL7IDPt3qGke3l0XpylmdJNPqAfSBllxwmATGiIAIWPcmPUmqLfdcb7VcFnW-X')">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-surface-dim/40 to-transparent"></div>
+</div>
+<!-- Real-time Instrument Lab Callout Overlays -->
+<div class="absolute bottom-4 left-4 right-4 md:bottom-8 md:left-8 md:right-8 grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="p-space-md rounded-lg bg-surface-container-lowest/80 backdrop-blur-xl shadow-lg flex items-center gap-space-md">
+<span class="material-symbols-outlined text-primary text-[28px]">air</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Facility Spec</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Class-100 Cleanroom</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ISO 5 certified particulate control</span>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-lowest/80 backdrop-blur-xl shadow-lg flex items-center gap-space-md">
+<span class="material-symbols-outlined text-secondary text-[28px]">ac_unit</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Environmental Simulation</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Cryogenic TVAC Testing</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Thermal cycles down to 15 Kelvin</span>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-lowest/80 backdrop-blur-xl shadow-lg flex items-center gap-space-md">
+<span class="material-symbols-outlined text-tertiary text-[28px]">filter_tilt_shift</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Payload Metrology</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Spectrometric Alignment</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sub-micron laser interferometry</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. RESEARCH AREAS -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-lg" id="research">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">SCIENTIFIC PURSUITS</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Our Research Areas</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Multidisciplinary scientific domains driving breakthrough discoveries across planetary, cosmological, and instrumentation frontiers.
+      </p>
+</div>
+<!-- 8 Interactive Research Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1 -->
+<div class="research-card group p-space-md rounded-xl bg-surface-container-low/60 backdrop-blur-md shadow-md flex flex-col justify-between gap-space-sm transition-all duration-300 hover:bg-surface-container hover:shadow-xl hover:-translate-y-1">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">flare</span>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-container text-primary uppercase font-mono">AST-01</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Astrophysics</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            High-energy cosmic ray profiling, indirect dark matter detection, stellar nucleosynthesis, and magnetar burst characterization.
+          </p>
+</div>
+<button class="research-toggle text-left flex items-center justify-between text-primary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span>Telemetry Specs</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200">expand_more</span>
+</button>
+<div class="research-detail hidden pt-space-xs font-body-sm text-body-sm text-outline space-y-1">
+<p>• Array: Cherenkov High-Altitude Array</p>
+<p>• Energy Band: 100 GeV - 100 TeV</p>
+<p>• Target: Cygnus OB2 Cluster</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="research-card group p-space-md rounded-xl bg-surface-container-low/60 backdrop-blur-md shadow-md flex flex-col justify-between gap-space-sm transition-all duration-300 hover:bg-surface-container hover:shadow-xl hover:-translate-y-1">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">public</span>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-container text-secondary uppercase font-mono">PLN-02</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Planetary Science</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Atmospheric photochemistry modeling, core magnetic dynamos, silicate mantle convection, and volatile sublimation mapping.
+          </p>
+</div>
+<button class="research-toggle text-left flex items-center justify-between text-secondary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span>Telemetry Specs</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200">expand_more</span>
+</button>
+<div class="research-detail hidden pt-space-xs font-body-sm text-body-sm text-outline space-y-1">
+<p>• Instruments: Mass Spectrometer III</p>
+<p>• Precision: 0.05 ppm organic isotopes</p>
+<p>• Models: 3D General Circulation</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="research-card group p-space-md rounded-xl bg-surface-container-low/60 backdrop-blur-md shadow-md flex flex-col justify-between gap-space-sm transition-all duration-300 hover:bg-surface-container hover:shadow-xl hover:-translate-y-1">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">rocket_launch</span>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-container text-tertiary uppercase font-mono">PRP-03</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Space Exploration</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Next-gen hall-effect plasma thrusters, gravitational slingshot trajectories, and automated deep space orbital navigation.
+          </p>
+</div>
+<button class="research-toggle text-left flex items-center justify-between text-tertiary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span>Telemetry Specs</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200">expand_more</span>
+</button>
+<div class="research-detail hidden pt-space-xs font-body-sm text-body-sm text-outline space-y-1">
+<p>• Isp Rating: 4,800 seconds</p>
+<p>• Propellant: Xenon/Krypton hybrid</p>
+<p>• Test Rig: Vacuum Chamber Delta-7</p>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="research-card group p-space-md rounded-xl bg-surface-container-low/60 backdrop-blur-md shadow-md flex flex-col justify-between gap-space-sm transition-all duration-300 hover:bg-surface-container hover:shadow-xl hover:-translate-y-1">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">sensors</span>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-container text-primary uppercase font-mono">SAT-04</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Satellite Tech</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Distributed nanosatellite mesh architecture, inter-satellite laser cross-links, and autonomous station-keeping systems.
+          </p>
+</div>
+<button class="research-toggle text-left flex items-center justify-between text-primary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span>Telemetry Specs</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200">expand_more</span>
+</button>
+<div class="research-detail hidden pt-space-xs font-body-sm text-body-sm text-outline space-y-1">
+<p>• Bandwidth: 10 Gbps coherent laser</p>
+<p>• Constellation: 24 Cubesats in Sun-Sync</p>
+<p>• Cryptography: Post-Quantum Kyber</p>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="research-card group p-space-md rounded-xl bg-surface-container-low/60 backdrop-blur-md shadow-md flex flex-col justify-between gap-space-sm transition-all duration-300 hover:bg-surface-container hover:shadow-xl hover:-translate-y-1">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">travel_explore</span>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-container text-secondary uppercase font-mono">EAR-05</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Earth Observation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            L-band synthetic aperture radar interferometry for tectonic shear dynamics, ocean thermohaline tracking, and ice shelf mass balance.
+          </p>
+</div>
+<button class="research-toggle text-left flex items-center justify-between text-secondary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span>Telemetry Specs</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200">expand_more</span>
+</button>
+<div class="research-detail hidden pt-space-xs font-body-sm text-body-sm text-outline space-y-1">
+<p>• Spatial Resolution: 0.35m per pixel</p>
+<p>• Swath Width: 250 km</p>
+<p>• Repeat Cadence: 48-Hour Orbit</p>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="research-card group p-space-md rounded-xl bg-surface-container-low/60 backdrop-blur-md shadow-md flex flex-col justify-between gap-space-sm transition-all duration-300 hover:bg-surface-container hover:shadow-xl hover:-translate-y-1">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">qr_code_2</span>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-container text-tertiary uppercase font-mono">AST-06</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Astronomy</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Infrared cryogenic space cameras, exoplanetary atmospheric absorption spectral lines, and sub-millimeter protoplanetary disks.
+          </p>
+</div>
+<button class="research-toggle text-left flex items-center justify-between text-tertiary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span>Telemetry Specs</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200">expand_more</span>
+</button>
+<div class="research-detail hidden pt-space-xs font-body-sm text-body-sm text-outline space-y-1">
+<p>• Aperture: 4.5m Beryllium Primary</p>
+<p>• Infrared Band: 0.6 to 28.5 microns</p>
+<p>• Location: Earth-Sun L2 Halo Orbit</p>
+</div>
+</div>
+<!-- Card 7 -->
+<div class="research-card group p-space-md rounded-xl bg-surface-container-low/60 backdrop-blur-md shadow-md flex flex-col justify-between gap-space-sm transition-all duration-300 hover:bg-surface-container hover:shadow-xl hover:-translate-y-1">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">smart_toy</span>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-container text-primary uppercase font-mono">ROB-07</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Space Robotics</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Autonomous multi-joint manipulators, stereoscopic hazard avoidance visual odometry, and deep core percussive drilling end-effectors.
+          </p>
+</div>
+<button class="research-toggle text-left flex items-center justify-between text-primary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span>Telemetry Specs</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200">expand_more</span>
+</button>
+<div class="research-detail hidden pt-space-xs font-body-sm text-body-sm text-outline space-y-1">
+<p>• Autonomy: Level 4 Terrain Traversal</p>
+<p>• Drill Depth: 2.2 meters percussive</p>
+<p>• Thermal Shield: Radioisotope RTG</p>
+</div>
+</div>
+<!-- Card 8 -->
+<div class="research-card group p-space-md rounded-xl bg-surface-container-low/60 backdrop-blur-md shadow-md flex flex-col justify-between gap-space-sm transition-all duration-300 hover:bg-surface-container hover:shadow-xl hover:-translate-y-1">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">dark_mode</span>
+</div>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-container text-secondary uppercase font-mono">LUN-08</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Lunar Research</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Permanently shadowed regions (PSR) water ice spectrometry, regolith sintering metallurgy, and lunar farside radio silence arrays.
+          </p>
+</div>
+<button class="research-toggle text-left flex items-center justify-between text-secondary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span>Telemetry Specs</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200">expand_more</span>
+</button>
+<div class="research-detail hidden pt-space-xs font-body-sm text-body-sm text-outline space-y-1">
+<p>• Target: Shackleton Crater Rim</p>
+<p>• Volatile Assay: Hydroxyl &amp; Ice-3%</p>
+<p>• Ground Truth: Neutron Spectrometer</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. CURRENT MISSIONS -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-lg" id="missions">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">REAL-TIME FLIGHT CONTROL</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Current Space Missions</h2>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-low px-space-md py-space-xs rounded-full">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-mono">MISSION CONTROL HUD: ONLINE</span>
+</div>
+</div>
+<!-- 3 Detailed Mission Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-lg">
+<!-- Mission 1: Lunar Explorer -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-xl flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm px-space-xs py-1 rounded bg-emerald-950/80 text-emerald-400 font-semibold tracking-wider uppercase font-mono">
+              ACTIVE • PHASE 4
+            </span>
+<span class="font-label-sm text-label-sm text-outline font-mono">ID: LUN-EXP-04</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Lunar Explorer</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Targeting the Shackleton-de Gerlache ridge at the Moon's South Pole to execute continuous high-resolution subsurface drill core extraction and seismic profile logging.
+          </p>
+</div>
+<!-- Telemetry Data Box -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest/80 flex flex-col gap-space-xs font-mono text-body-sm">
+<div class="flex justify-between items-center text-outline">
+<span>TARGET LAUNCH:</span>
+<span class="text-on-surface font-semibold">Q3 2026</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>PERILUNE ALTITUDE:</span>
+<span class="text-primary font-semibold">112.4 KM</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>DOWNLINK VELOCITY:</span>
+<span class="text-emerald-400 font-semibold">4.2 GBPS (KA-BAND)</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>POWER LEVEL:</span>
+<span class="text-primary font-semibold">98.6% (SOLAR/BATTERY)</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 78%;"></div>
+</div>
+</div>
+<!-- Mission 2: Mars Pathfinder -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-xl flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm px-space-xs py-1 rounded bg-amber-950/80 text-amber-400 font-semibold tracking-wider uppercase font-mono">
+              CALIBRATION • FLIGHT PREP
+            </span>
+<span class="font-label-sm text-label-sm text-outline font-mono">ID: MRS-PTH-07</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Mars Pathfinder</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Advanced rover payload integrating ramanspectroscopy and ground-penetrating radar to search for aqueous brines beneath Jezero Crater's ancient delta deposits.
+          </p>
+</div>
+<!-- Telemetry Data Box -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest/80 flex flex-col gap-space-xs font-mono text-body-sm">
+<div class="flex justify-between items-center text-outline">
+<span>TARGET WINDOW:</span>
+<span class="text-on-surface font-semibold">Q2 2027</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>TRANSIT DISTANCE:</span>
+<span class="text-primary font-semibold">225 MILLION KM</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>MASS AT INJECTION:</span>
+<span class="text-secondary font-semibold">1,480 KG WET</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>AI FLIGHT AUTONOMY:</span>
+<span class="text-amber-400 font-semibold">VALIDATION COMPLETE</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 45%;"></div>
+</div>
+</div>
+<!-- Mission 3: Deep Space Observatory -->
+<div class="p-space-lg rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-xl flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm px-space-xs py-1 rounded bg-cyan-950/80 text-primary font-semibold tracking-wider uppercase font-mono">
+              ACTIVE • CONTINUOUS
+            </span>
+<span class="font-label-sm text-label-sm text-outline font-mono">ID: DSO-L2-01</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Deep Space Observatory</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Stationed at the second Lagrange point (L2), conducting deep infrared spectral surveys of primordial gas clouds, high-redshift z&gt;12 proto-galaxies, and circumstellar disks.
+          </p>
+</div>
+<!-- Telemetry Data Box -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest/80 flex flex-col gap-space-xs font-mono text-body-sm">
+<div class="flex justify-between items-center text-outline">
+<span>STATION POINT:</span>
+<span class="text-on-surface font-semibold">SUN-EARTH L2 (1.5M KM)</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>MIRROR CRYOCONTROL:</span>
+<span class="text-primary font-semibold">6.4 KELVIN</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>OBSERVATION CADENCE:</span>
+<span class="text-primary font-semibold">99.4% DUTY CYCLE</span>
+</div>
+<div class="flex justify-between items-center text-outline">
+<span>DSN GROUND LINK:</span>
+<span class="text-cyan-300 font-semibold">MADRID 70M - LOCK</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
+<div class="bg-tertiary h-full rounded-full" style="width: 92%;"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. SPACE DISCOVERIES -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-lg" id="discoveries">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">BREAKTHROUGH ACHIEVEMENTS</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Discoveries That Expand Our Understanding</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Chronological milestones verified through multi-institutional cross-validation and peer-reviewed astrophysical publication.
+      </p>
+</div>
+<!-- 5 Milestone Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col justify-between gap-space-sm">
+<div class="flex items-center justify-between text-outline font-mono text-label-sm">
+<span>EXOPLANET SURVEY</span>
+<span class="text-primary">CONFIRMED 2024</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Kepler-186f Atmosphere Confirmation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Spectroscopic detection of water vapor and nitrogen-rich atmospheric envelope inside the habitable circumstellar zone using transmission absorption arrays.
+        </p>
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>5.8σ Statistical Significance</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col justify-between gap-space-sm">
+<div class="flex items-center justify-between text-outline font-mono text-label-sm">
+<span>COSMOLOGY</span>
+<span class="text-secondary">PEER-REVIEWED 2024</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">JWST Complementary Deep Galaxy Array</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Identification of ultra-luminous early stellar populations at redshift z=13.2, revealing galaxy formation just 320 million years after the Big Bang.
+        </p>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>13.8 Billion Light-Years Lookback</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col justify-between gap-space-sm">
+<div class="flex items-center justify-between text-outline font-mono text-label-sm">
+<span>SATELLITE SENSORICS</span>
+<span class="text-tertiary">DEPLOYED 2023</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Sub-Millimeter Hyperspectral Sensor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          First successful orbital test of an on-chip superconducting bolometer array, capturing terahertz gas emissions with 300x lower thermal background noise.
+        </p>
+<div class="flex items-center gap-space-xs text-tertiary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>0.18 Kelvin Operating Margin</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col justify-between gap-space-sm">
+<div class="flex items-center justify-between text-outline font-mono text-label-sm">
+<span>LUNAR CARTOGRAPHY</span>
+<span class="text-primary">MAPPED 2023</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Lunar Polar Ice Crater Topographical Map</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Sub-meter resolution synthetic aperture radar model resolving exposed water ice layers up to 1.8 meters thick within Shackleton Crater's permanent shadow.
+        </p>
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>0.5m Elevation Precision</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col justify-between gap-space-sm lg:col-span-2">
+<div class="flex items-center justify-between text-outline font-mono text-label-sm">
+<span>RELATIVISTIC ASTROPHYSICS</span>
+<span class="text-secondary">OBSERVED 2022</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Supermassive Black Hole Accretion Disk Magnetic Mapping</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Polarimetric radio interferometry resolved the helical magnetic field geometry surrounding the event horizon of Messier 87*, directly confirming relativistic plasma jet ejection mechanisms.
+        </p>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-wider pt-space-xs">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Resolved at 20 Micro-arcseconds</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. SPACE RESEARCH TIMELINE -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-xl">
+<div class="flex flex-col items-center text-center gap-space-xs max-w-2xl mx-auto">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">MISSION HISTORIOGRAPHY</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Space Research Timeline</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        A quarter century of systematic astrophysical discovery, engineering milestones, and interstellar exploration.
+      </p>
+</div>
+<!-- Alternating Timeline Container -->
+<div class="relative w-full max-w-4xl mx-auto flex flex-col gap-space-lg">
+<!-- Continuous Central Line -->
+<div class="absolute left-1/2 top-4 bottom-4 -translate-x-1/2 w-0.5 bg-gradient-to-b from-primary via-secondary to-tertiary hidden md:block opacity-40"></div>
+<!-- Item 1: 2001 -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-md w-full">
+<div class="w-full md:w-5/12 text-left md:text-right p-space-md rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-md">
+<span class="font-label-sm text-label-sm text-primary font-mono font-bold">2001 • FOUNDATION</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Research Center Founded</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Formed under an inter-agency charter with 14 global astronomical institutions to construct centralized high-resolution optical surveillance stations.
+          </p>
+</div>
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-xs shadow-md z-10 shrink-0">
+          01
+        </div>
+<div class="w-full md:w-5/12 hidden md:block"></div>
+</div>
+<!-- Item 2: 2008 -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-md w-full">
+<div class="w-full md:w-5/12 hidden md:block"></div>
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-xs shadow-md z-10 shrink-0">
+          02
+        </div>
+<div class="w-full md:w-5/12 text-left p-space-md rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-md">
+<span class="font-label-sm text-label-sm text-secondary font-mono font-bold">2008 • ORBITAL LAUNCH</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">First Satellite Research Program</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Deployment of MicroSat-1 payload into polar low Earth orbit to measure fluctuations in the Van Allen radiation belt during high solar activity cycles.
+          </p>
+</div>
+</div>
+<!-- Item 3: 2015 -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-md w-full">
+<div class="w-full md:w-5/12 text-left md:text-right p-space-md rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-md">
+<span class="font-label-sm text-label-sm text-tertiary font-mono font-bold">2015 • DEEP SKY ARRAY</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Deep Space Research Initiative</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Commissioning of the high-altitude optical interferometer array for continuous atmospheric exoplanet transit monitoring.
+          </p>
+</div>
+<div class="w-8 h-8 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center font-bold text-xs shadow-md z-10 shrink-0">
+          03
+        </div>
+<div class="w-full md:w-5/12 hidden md:block"></div>
+</div>
+<!-- Item 4: 2021 -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-md w-full">
+<div class="w-full md:w-5/12 hidden md:block"></div>
+<div class="w-8 h-8 rounded-full bg-primary-fixed-dim text-on-primary-fixed flex items-center justify-center font-bold text-xs shadow-md z-10 shrink-0">
+          04
+        </div>
+<div class="w-full md:w-5/12 text-left p-space-md rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-md">
+<span class="font-label-sm text-label-sm text-primary-fixed-dim font-mono font-bold">2021 • SUBSURFACE RADAR</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Advanced Planetary Research</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Martian polar orbital sounder delivers the first comprehensive structural map of buried basal liquid brine pockets.
+          </p>
+</div>
+</div>
+<!-- Item 5: 2026+ -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-md w-full">
+<div class="w-full md:w-5/12 text-left md:text-right p-space-md rounded-xl bg-surface-container-low/70 backdrop-blur-md shadow-md">
+<span class="font-label-sm text-label-sm text-primary font-mono font-bold">2026+ • NEXT HORIZON</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Next Generation Space Missions</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Deployment of autonomous deep-space probes equipped with ion propulsion and quantum entanglement communication links.
+          </p>
+</div>
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-xs shadow-md z-10 shrink-0">
+          05
+        </div>
+<div class="w-full md:w-5/12 hidden md:block"></div>
+</div>
+</div>
+</section>
+<!-- 7. SCIENTISTS & RESEARCHERS -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-lg" id="scientists">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">FACULTY &amp; FELLOWS</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Meet Our Researchers</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Distinguished astrophysicists, instrument engineers, and planetary geologists leading humanity's push into interstellar space.
+      </p>
+</div>
+<!-- Scientist Profiles Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Scientist 1: Dr. Ananya Sharma -->
+<div class="p-space-md rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-lg flex flex-col gap-space-sm group hover:bg-surface-container transition-all">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-surface-container-high">
+<img alt="Dr. Ananya Sharma - Lead Astrophysicist" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuX4Zx9ECBc5c4_Z0k4QCrRMipDG27R3t4G-0bvKrsm7OJ5VXIYWdMZEDHISDTr2TXe7X5u8MVKafOs__2HJKt2g8N5HfaiM_ys1SwxdLQ275zKgnzp0eSNWole79xkm5KYTagyRSLMJThwyfanepPR6DzOnGnlON5KjU24osglrQMCiOr48u-Bt3TJ-ncA17ATjsTWX1ljaszia0cnYotlaPHk3sjY6-TZLIyfrkTKLxSpb0wljNd"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary font-mono uppercase tracking-wider">Lead Astrophysicist</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dr. Ananya Sharma</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Atmospheric transmission spectroscopy and biosignature characterization of M-dwarf orbiting exoplanets.
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-auto text-outline font-mono text-body-sm">
+<span>78 PAPERS • 6 PATENTS</span>
+<span class="material-symbols-outlined text-primary text-[20px] cursor-pointer hover:text-primary-fixed">contact_mail</span>
+</div>
+</div>
+<!-- Scientist 2: Dr. Rahul Mehta -->
+<div class="p-space-md rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-lg flex flex-col gap-space-sm group hover:bg-surface-container transition-all">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-surface-container-high">
+<img alt="Dr. Rahul Mehta - Principal Planetary Scientist" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_kXx00hdDWd00IrNcsLYb2voOJmc6QZTDPmwYUxnTP9NFeZVnDo-SZcUos3UA3kdHFpIA50_2RmmuwMDaF1uRokY_OKah_xrXtYT947iixS6OPMjXNZ9rXnAn6HdZkLDwWxsLcn5-0Ws5oFktKvRmfTvdO6Eowf2QdXZNciSVAWcDMENpZWZb-oFCcKpKrBh8A9gOlOrr_T2PvNeSCdFROheGNEtr-QvMTQY3-8KSSuiQzWOfzOHi"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-mono uppercase tracking-wider">Principal Planetary Scientist</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dr. Rahul Mehta</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Martian regolith hydrology, subsurface cryosphere profiling, and lunar mantle basalt petrology.
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-auto text-outline font-mono text-body-sm">
+<span>92 PAPERS • 4 PATENTS</span>
+<span class="material-symbols-outlined text-secondary text-[20px] cursor-pointer hover:text-secondary-fixed">contact_mail</span>
+</div>
+</div>
+<!-- Scientist 3: Dr. Sarah Williams -->
+<div class="p-space-md rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-lg flex flex-col gap-space-sm group hover:bg-surface-container transition-all">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-surface-container-high relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="Professional studio portrait of Dr Sarah Williams, a female aerospace engineering director in dark formal attire against clean dark blue observatory lab lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDm4Gllv9_BRUYftrTHCyAADET8bSnt9quTpkuezKcag2px0oxq188ZAevr2dhnsSZiaNfDGqbFa3Iz4K2vMNEHJNFuVJ83rR9hof36wZ8kZs1QwS1AAjsoUR8Ah0G_2913ijGIbHMUS_3nm76gmgGZClHD5i4Dw6RGtPz_r-qiMdALv9xsBgzZJZiRn98JDupSuQXgg2VCbf-GrrdQqWQAgVqv_l63cY2JWYLbObZraOsnkrFt5Q6G')"></div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary font-mono uppercase tracking-wider">Director of Systems Eng.</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dr. Sarah Williams</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Microsatellite swarm communication protocols, autonomous orbit navigation, and payload cryogenics.
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-auto text-outline font-mono text-body-sm">
+<span>64 PAPERS • 11 PATENTS</span>
+<span class="material-symbols-outlined text-tertiary text-[20px] cursor-pointer hover:text-tertiary-fixed">contact_mail</span>
+</div>
+</div>
+<!-- Scientist 4: Dr. Marcus Vance -->
+<div class="p-space-md rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-lg flex flex-col gap-space-sm group hover:bg-surface-container transition-all">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-surface-container-high relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="Professional studio portrait of Dr Marcus Vance, a senior male astrophysicist with graying hair and intense observant expression in a dark high-tech physics research environment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDgHvHCOuR0v_ttokr80iSaLFeRu24-4WvNvs5gY2TNAUWpKJKVPVhb6GIxho9OQcUNON17vOyDtQci4exCEbYiV5QRGLnOL2ulG5aPOolyp45w54IoS8Z_GSbefA0olulMGjcIl6t93A8OUepyVgHCA-nfUhzVVBbzFuFu57DEBnJEi5OhTu8qncfOVJuSKiWmcV0vvN1dymTq9RN-qsipPgvWkTfYLr67x6Dg-elOBZRMd94V21BR')"></div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary-fixed-dim font-mono uppercase tracking-wider">Chief of Cosmology</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dr. Marcus Vance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Dark energy survey analysis, cosmic microwave background anisotropy, and gravitational lensing arrays.
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs mt-auto text-outline font-mono text-body-sm">
+<span>115 PAPERS • 2 PATENTS</span>
+<span class="material-symbols-outlined text-primary-fixed-dim text-[20px] cursor-pointer hover:text-primary-fixed">contact_mail</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. SPACE DATA / STATISTICS -->
+<section class="w-full px-gutter py-space-xl">
+<div class="p-space-xl rounded-2xl bg-surface-container-lowest/90 backdrop-blur-xl shadow-2xl flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">INSTRUMENTATION &amp; RESEARCH METRICS</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Global Research Velocity</h2>
+</div>
+<span class="font-mono text-label-sm text-outline">TELEMETRY ARCHIVE: SYNCED J2026.1</span>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-space-md">
+<div class="flex flex-col p-space-md bg-surface-container-low rounded-xl">
+<span class="font-display text-display text-primary font-bold">120+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline mt-space-xs">Researchers</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Across 18 Countries</span>
+</div>
+<div class="flex flex-col p-space-md bg-surface-container-low rounded-xl">
+<span class="font-display text-display text-secondary font-bold">40+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline mt-space-xs">Space Missions</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Active &amp; Catalogued</span>
+</div>
+<div class="flex flex-col p-space-md bg-surface-container-low rounded-xl">
+<span class="font-display text-display text-tertiary font-bold">250+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline mt-space-xs">Peer Papers</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Nature &amp; Astrophysical J.</span>
+</div>
+<div class="flex flex-col p-space-md bg-surface-container-low rounded-xl">
+<span class="font-display text-display text-primary-fixed font-bold">75+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline mt-space-xs">Instruments</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Space Payload Flown</span>
+</div>
+<div class="flex flex-col p-space-md bg-surface-container-low rounded-xl">
+<span class="font-display text-display text-secondary-fixed font-bold">30+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline mt-space-xs">Petabytes</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Deep-Sky Telemetry</span>
+</div>
+<div class="flex flex-col p-space-md bg-surface-container-low rounded-xl">
+<span class="font-display text-display text-emerald-400 font-bold">99.9%</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline mt-space-xs">Network Uptime</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Continuous DSN Link</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. LATEST SPACE NEWS -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-lg" id="news">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">DISPATCHES FROM DEEP SPACE</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Latest From Space Research</h2>
+</div>
+<a class="font-label-sm text-label-sm text-primary uppercase tracking-wider hover:underline flex items-center gap-1" href="#">
+<span>View Publication Archive</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- 3 News Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="p-space-lg rounded-2xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col justify-between gap-space-md group hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-mono text-label-sm text-outline">
+<span class="px-space-xs py-0.5 rounded bg-primary-container/20 text-primary uppercase">Deep Space</span>
+<span>Nov 18, 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-2">
+            Deep Space Observatory Identifies Organic Precursors in Orion Nebula
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            High-resolution submillimeter spectrograph reveals dense concentrations of amino acid pre-compounds within proto-stellar accretion disks.
+          </p>
+</div>
+<div class="flex items-center justify-between text-outline text-body-sm pt-space-xs">
+<span>5 min read</span>
+<span class="material-symbols-outlined text-primary text-[20px] group-hover:translate-x-1 transition-transform">north_east</span>
+</div>
+</div>
+<div class="p-space-lg rounded-2xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col justify-between gap-space-md group hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-mono text-label-sm text-outline">
+<span class="px-space-xs py-0.5 rounded bg-secondary-container/20 text-secondary uppercase">Technology</span>
+<span>Dec 02, 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors mt-2">
+            Quantum Encrypted Telemetry Tested Between LEO Orbital &amp; Ground Station
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Successful demonstration of photon entanglement key distribution achieving zero-loss quantum state integrity across turbulent atmosphere.
+          </p>
+</div>
+<div class="flex items-center justify-between text-outline text-body-sm pt-space-xs">
+<span>7 min read</span>
+<span class="material-symbols-outlined text-secondary text-[20px] group-hover:translate-x-1 transition-transform">north_east</span>
+</div>
+</div>
+<div class="p-space-lg rounded-2xl bg-surface-container-low/70 backdrop-blur-md shadow-lg flex flex-col justify-between gap-space-md group hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-mono text-label-sm text-outline">
+<span class="px-space-xs py-0.5 rounded bg-tertiary-container/20 text-tertiary uppercase">Missions</span>
+<span>Jan 14, 2026</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors mt-2">
+            Polar Lunar Drill Assembly Passes Thermal-Vacuum Qualification
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Flight qualification tests completed at Astra Labs under sustained 35 Kelvin conditions, confirming flight readiness for Q3 launch window.
+          </p>
+</div>
+<div class="flex items-center justify-between text-outline text-body-sm pt-space-xs">
+<span>4 min read</span>
+<span class="material-symbols-outlined text-tertiary text-[20px] group-hover:translate-x-1 transition-transform">north_east</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. SPACE GALLERY (Interactive Lightbox) -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">IMAGING ARCHIVE</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Scientific Visual Gallery</h2>
+</div>
+<!-- Filter Tabs -->
+<div class="flex flex-wrap items-center gap-space-xs bg-surface-container-low p-1 rounded-lg" id="gallery-filters">
+<button class="gallery-filter-btn active px-space-md py-1 rounded font-label-sm text-label-sm uppercase tracking-wider bg-primary-container text-on-primary-container font-semibold" data-filter="all">All Imagery</button>
+<button class="gallery-filter-btn px-space-md py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface" data-filter="deep-space">Deep Space</button>
+<button class="gallery-filter-btn px-space-md py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface" data-filter="planetary">Planetary</button>
+<button class="gallery-filter-btn px-space-md py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface" data-filter="hardware">Hardware &amp; Labs</button>
+</div>
+</div>
+<!-- Gallery Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md" id="gallery-grid">
+<!-- Item 1: Earth / Space Station -->
+<div class="gallery-item group relative h-64 rounded-xl overflow-hidden cursor-pointer shadow-lg" data-alt="Spectacular view of Earth at night with city lights, atmospheric glow, and satellite solar array in the foreground against cosmic galaxy nebula." data-category="deep-space" data-desc="Captured by the Earth Observation Satellite at 420km altitude featuring active solar wings against city luminescence." data-src="placeholder" data-title="Low Earth Orbit &amp; Space Station Payload">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Spectacular view of Earth at night with city lights, atmospheric glow, and satellite solar array in the foreground against cosmic galaxy nebula." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBUMELZVWhMRpZz29veg-AaSV9z8wRWZUlDRvGDY9h1YlL93vqlHNkcwOSBFt-s1-XeZlbY86X1Zw2e_BoH9VZH-kWKb1i7VswMB5uSltmGA9Z4p918JyQpjtEa_vsXj5eTvEIhv7dN5gb6nuZa9c68g3932DIBL_R5k4C1V5D2KR-jfG335sxzwzEWVOAD2-zjRxKwW7iJS148eQ3wFN25PCkmBPWTnNQq-nibHHXMuzZMqlTE_CrS')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-space-md">
+<span class="font-label-sm text-label-sm text-primary font-mono uppercase">LEO Altitude • 420 KM</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Earth Night Horizon</span>
+</div>
+</div>
+<!-- Item 2: Astra Space Cleanroom -->
+<div class="gallery-item group relative h-64 rounded-xl overflow-hidden cursor-pointer shadow-lg" data-alt="Satellite cleanroom integration facility with robotic test frames and scientists in clean suits inspecting gold foil avionics." data-category="hardware" data-desc="Class-100 cleanroom payload assembly room at Astra Space Labs during final structural bolt torque validation." data-src="placeholder" data-title="Cleanroom Integration Facility">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Satellite cleanroom integration facility with robotic test frames and scientists in clean suits inspecting gold foil avionics." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCdZQysjPBqazI_MJnzvdyQOe2N2jkA08xcGbYT_87-sxKNAaGO6SrZwJr1EHrKm8GjG6ARdwvicq-PXmAgpwr4YuRsDs0HqhkG_3YcvWkEl11rQI-LmhfAsGZWQkFp-4F2Dgodm7QUozYrgUrVTnMNjMIjFk-xdV-XpkJcfedps1hArX9NPFnhcFtkmosMckQsFHV4Du4gQeWDmm3ddCVfsnxaHI87OWHYHHxPxGZsl8pHDCtNtZFJ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-space-md">
+<span class="font-label-sm text-label-sm text-secondary font-mono uppercase">Cleanroom ISO-5</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Satellite Integration</span>
+</div>
+</div>
+<!-- Item 3: Spiral Galaxy -->
+<div class="gallery-item group relative h-64 rounded-xl overflow-hidden cursor-pointer shadow-lg" data-alt="Spiral galaxy in deep cosmos showing glowing core, swirling star clusters, and deep magenta cosmic dust bands." data-category="deep-space" data-desc="Composite image captured by the Deep Space Observatory integrating near-infrared and 8-micron spectral bands." data-src="placeholder" data-title="NGC-3844 Grand Spiral Galaxy">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Spiral galaxy in deep cosmos showing glowing core, swirling star clusters, and deep magenta cosmic dust bands." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPEBLY6-53lELdQVJzAKu3QCFwGmSEjQ7C4S4TerCN7koU-N9H8UjqlhHePrG3CiSdpBIz_7NweyXvDMA5duR--D-y526nkFaMBALN4ljXsaDOtCrwvk3CTik8PxB7Z-a8vfsn452_EpXn0WUi8z3I7gfmbGPPeh2dyeOIp3JIbjbdUmQBImeSIb2ZdkYRY0KjNe-wQVe_e0qIZV-LemrG926SvAUCYOyjCp41A-0lcvCGMzlOyZSi')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-space-md">
+<span class="font-label-sm text-label-sm text-tertiary font-mono uppercase">Deep Space Array</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Spiral Core M-83</span>
+</div>
+</div>
+<!-- Item 4: Lunar Highlands -->
+<div class="gallery-item group relative h-64 rounded-xl overflow-hidden cursor-pointer shadow-lg" data-alt="Extremely high-detail monochromatic lunar topography surface with jagged sharp craters and stark shadows under black vacuum." data-category="planetary" data-desc="Shallow-angle solar illumination illuminating crystalline basalt formations near the Malapert mountain peak." data-src="placeholder" data-title="Lunar South Polar Ridge">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Extremely high-detail monochromatic lunar topography surface with jagged sharp craters and stark shadows under black vacuum." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD5j89FIimPVyaB4cDfhzyldbKXXfF5ZIE17ZiQcHLOe_CIcFjAfkeJS8-bYWdO3KPoTW2rCqdQ-umL8x9W5tWoCDsubrjbMPycOZgp6q4qyTpPj34WKJT99dpmzwN8zJvv3tgWRSL0-PamR9vZDcmeoVBSP-L64lZ0rPzJIP65ZWul-vbVBsp35aShb1g-WQ63Ki53igrzWZcRLMWxlXrPI29KkMjzesBmC1DDokgTUIT2UOdcmDkv')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-space-md">
+<span class="font-label-sm text-label-sm text-primary font-mono uppercase">Lunar Cartography</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Polar Ridge Rim</span>
+</div>
+</div>
+</div>
+<!-- Lightbox Modal (Hidden by Default) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/90 backdrop-blur-2xl flex items-center justify-center p-gutter hidden" id="lightbox-modal">
+<div class="relative max-w-4xl w-full bg-surface-container rounded-2xl overflow-hidden shadow-2xl flex flex-col">
+<button class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-container-highest" id="lightbox-close">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+<div class="w-full h-[400px] md:h-[480px] bg-cover bg-center" data-alt="High resolution scientific deep space imagery preview modal" id="lightbox-img-container" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuACVpjj8xn9urwgm-q7LybYZK2wnWpE6V3_mVeVCXq4ByaPc9wxwntJBadd1R7E7bSdGnu8RiJGtzUnePyip3MjnmLnHowFE4k8kD6fvoGmSonHTtPNVW3IH0Y2oLfLWl-3rYIrXRIt9_TesIlyvB764UbbjLVe-AiQKfKoncSWbvtEe0CbA4OYriMT3JmTd52DX28uqssF8xilseibzE8Dz-UEhx07WvIU0ujfdXzJxIweVJW5FJia')"></div>
+<div class="p-space-lg flex flex-col gap-space-xs bg-surface-container-low">
+<h3 class="font-headline-md text-headline-md text-on-surface" id="lightbox-title">Scientific Capture</h3>
+<p class="font-body-md text-body-md text-on-surface-variant" id="lightbox-desc">Archived payload metadata and telemetry provenance information.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 11. RESEARCH CTA -->
+<section class="w-full px-gutter py-space-xl">
+<div class="relative w-full rounded-2xl overflow-hidden p-space-xl bg-surface-container-low shadow-2xl flex flex-col items-center text-center gap-space-md">
+<!-- Glow gradient accent -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary/20 rounded-full blur-3xl pointer-events-none"></div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest relative z-10">THE INFINITE FRONTIER</span>
+<h2 class="font-display text-display text-on-surface relative z-10 max-w-3xl">
+        The Universe Is Waiting to Be Explored.
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl relative z-10 leading-relaxed">
+        Join our international consortium of researchers, academic universities, and aerospace institutes. Together, we engineer the instruments that decode cosmic history.
+      </p>
+<div class="flex flex-wrap items-center justify-center gap-space-md pt-space-sm relative z-10">
+<a class="px-space-lg py-space-sm rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider glow-cyan transition-all font-semibold shadow-lg" href="#contact">
+          Collaborate With Us
+        </a>
+<a class="px-space-lg py-space-sm rounded-lg bg-surface-container-high text-on-surface font-headline-sm text-headline-sm uppercase tracking-wider hover:bg-surface-container-highest transition-all shadow-md" href="#contact">
+          Contact Research Team
+        </a>
+</div>
+</div>
+</section>
+<!-- 12. CONTACT & INQUIRY SECTION -->
+<section class="w-full px-gutter py-space-xl flex flex-col gap-space-lg" id="contact">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">TRANSMISSION FREQUENCIES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Connect With Our Research Team</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Initiate collaborative proposals, instrument payload inquiries, or student fellowship applications directly with ground control.
+      </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Contact Info & Telemetry Coordinates -->
+<div class="lg:col-span-5 flex flex-col justify-between gap-space-lg p-space-lg rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-xl">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary text-[24px] mt-1">location_on</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Facility Address</span>
+<span class="font-body-md text-body-md text-on-surface">Space Research Center, 123 Innovation Drive, Science &amp; Technology Park, India.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-secondary text-[24px] mt-1">mail</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Ground Control Inquiries</span>
+<span class="font-body-md text-body-md text-on-surface">research@example.com</span>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-tertiary text-[24px] mt-1">call</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Secure Comms Telemetry</span>
+<span class="font-body-md text-body-md text-on-surface">+91 00000 00000</span>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary-fixed text-[24px] mt-1">podcasts</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Deep Space Network ID</span>
+<span class="font-mono text-body-sm text-primary font-bold">DSN-44 // CANBERRA-GOLDSTONE RELAY</span>
+</div>
+</div>
+</div>
+<!-- Stylized Telemetry Dish SVG -->
+<div class="w-full p-space-md rounded-xl bg-surface-container-lowest/80 flex items-center justify-between">
+<div class="flex flex-col font-mono text-body-sm">
+<span class="text-primary font-semibold">SIGNAL LOCK: 99.82 dBm</span>
+<span class="text-outline text-label-sm">AZIMUTH: 184.2° | ELEV: 44.8°</span>
+</div>
+<svg class="w-10 h-10 text-primary animate-pulse" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
+<path d="M12 2a10 10 0 0 0-10 10c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"></path>
+</svg>
+</div>
+</div>
+<!-- Scientific Inquiry Form -->
+<div class="lg:col-span-7 p-space-lg rounded-2xl bg-surface-container-low/80 backdrop-blur-md shadow-xl flex flex-col justify-between">
+<form class="flex flex-col gap-space-md" id="scientific-inquiry-form">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Full Name</label>
+<input class="w-full px-space-md py-space-xs rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary font-body-md shadow-inner" placeholder="Dr. Jane Doe" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Email Address</label>
+<input class="w-full px-space-md py-space-xs rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary font-body-md shadow-inner" placeholder="j.doe@institution.edu" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Organization / University</label>
+<input class="w-full px-space-md py-space-xs rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary font-body-md shadow-inner" placeholder="Center for Astrophysics" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Research Domain</label>
+<select class="w-full px-space-md py-space-xs rounded-lg bg-surface-container-lowest text-on-surface focus:outline-none focus:ring-1 focus:ring-primary font-body-md shadow-inner cursor-pointer">
+<option value="astrophysics">Astrophysics &amp; Cosmology</option>
+<option value="planetary">Planetary Science &amp; Geology</option>
+<option value="satellites">Satellite Systems &amp; Avionics</option>
+<option value="robotics">Autonomous Space Robotics</option>
+<option value="other">Inter-Agency Data Sharing / Other</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Inquiry or Collaboration Proposal</label>
+<textarea class="w-full p-space-md rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary font-body-md shadow-inner resize-none" placeholder="Outline scientific objectives, instrument specifications, or fellowship scope..." required="" rows="4"></textarea>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<button class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider glow-cyan transition-all font-semibold shadow-lg" id="form-submit-btn" type="submit">
+<span>Submit Scientific Inquiry</span>
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+<span class="font-mono text-label-sm text-primary hidden" id="form-status">TELEMETRY TRANSMITTED • ACK RECEIVED</span>
+</div>
+</form>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Hero Particle Canvas Animation
+  (function initStars() {
+    const canvas = document.getElementById('hero-stars');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    let width, height, stars = [];
+
+    function resize() {
+      width = canvas.width = canvas.parentElement.offsetWidth;
+      height = canvas.height = canvas.parentElement.offsetHeight;
+      stars = Array.from({ length: 90 }, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        radius: Math.random() * 1.4 + 0.3,
+        alpha: Math.random() * 0.8 + 0.2,
+        speed: Math.random() * 0.015 + 0.005
+      }));
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, width, height);
+      for (const s of stars) {
+        s.alpha += s.speed;
+        if (s.alpha > 1 || s.alpha < 0.2) s.speed = -s.speed;
+        ctx.fillStyle = `rgba(200, 240, 255, ${Math.abs(s.alpha)})`;
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, s.radius, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      requestAnimationFrame(animate);
+    }
+
+    window.addEventListener('resize', resize);
+    resize();
+    animate();
+  })();
+
+  // Research Area Card Detail Toggles
+  document.querySelectorAll('.research-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const detail = btn.nextElementSibling;
+      const icon = btn.querySelector('.material-symbols-outlined');
+      if (detail.classList.contains('hidden')) {
+        detail.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        detail.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    });
+  });
+
+  // Gallery Filtering
+  const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => {
+        b.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+        b.classList.add('text-on-surface-variant');
+      });
+      btn.classList.add('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+      btn.classList.remove('text-on-surface-variant');
+
+      const filter = btn.getAttribute('data-filter');
+      galleryItems.forEach(item => {
+        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Gallery Lightbox Modal
+  const modal = document.getElementById('lightbox-modal');
+  const modalImg = document.getElementById('lightbox-img-container');
+  const modalTitle = document.getElementById('lightbox-title');
+  const modalDesc = document.getElementById('lightbox-desc');
+  const closeBtn = document.getElementById('lightbox-close');
+
+  galleryItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const title = item.getAttribute('data-title');
+      const desc = item.getAttribute('data-desc');
+      const bg = item.querySelector('div').style.backgroundImage;
+      const alt = item.querySelector('div').getAttribute('data-alt');
+
+      modalImg.style.backgroundImage = bg;
+      modalImg.setAttribute('data-alt', alt || 'Scientific space imagery');
+      modalTitle.textContent = title;
+      modalDesc.textContent = desc;
+
+      modal.classList.remove('hidden');
+    });
+  });
+
+  closeBtn.addEventListener('click', () => {
+    modal.classList.add('hidden');
+  });
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) modal.classList.add('hidden');
+  });
+
+  // Form Submission Micro-Interaction
+  const inquiryForm = document.getElementById('scientific-inquiry-form');
+  const formStatus = document.getElementById('form-status');
+  const submitBtn = document.getElementById('form-submit-btn');
+
+  inquiryForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.classList.add('opacity-70');
+    submitBtn.querySelector('span').textContent = 'Encrypting & Transmitting...';
+
+    setTimeout(() => {
+      inquiryForm.reset();
+      submitBtn.disabled = false;
+      submitBtn.classList.remove('opacity-70');
+      submitBtn.querySelector('span').textContent = 'Submit Scientific Inquiry';
+      formStatus.classList.remove('hidden');
+
+      setTimeout(() => {
+        formStatus.classList.add('hidden');
+      }, 5000);
+    }, 1200);
+  });
+</script></main><footer class="w-full bg-surface-container-lowest/90 backdrop-blur-xl mt-space-xl shadow-[0_-4px_24px_rgba(0,0,0,0.5)]"><div class="w-full px-gutter py-space-md bg-surface-container-low/60 flex flex-wrap items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><span class="relative flex h-2.5 w-2.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span><span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span></span><span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">SYSTEM STATUS: NOMINAL</span><span class="text-outline">•</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">DEEP SPACE NETWORK CONNECTED (DSN-70M GOLDSTONE)</span></div><div class="font-label-sm text-label-sm uppercase tracking-widest text-outline">TELEMETRY LATENCY: 1.28s // ORBITAL EPHEMERIS: J2000</div></div><div class="w-full px-gutter py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-space-lg"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm text-primary"><span class="material-symbols-outlined text-[24px]">rocket_launch</span><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface">Space Research Center</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-sm">Pioneering humanity's interstellar exploration and cosmic astrophysics. Conducting multi-spectral deep-sky surveillance, planetary cartography, and quantum propulsion research under global observatory charters.</p><div class="flex items-center gap-space-sm text-on-surface-variant pt-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">COORDINATES:</span><span class="font-label-sm text-label-sm text-on-surface">RA 17h 45m 40s | Dec -29° 0' 28"</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-wider text-primary">Quick Links</span><nav class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="home" href="#">Mission Home</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="about" href="#">About Institute</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="scientists" href="#">Fellows &amp; Faculty</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="contact" href="#">Ground Control</a></nav></div><div class="flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-wider text-primary">Research Domains</span><nav class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="research" href="#">Astrophysics</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="research" href="#">Exoplanet Habitability</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="research" href="#">Relativistic Mechanics</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="research" href="#">Quantum Telemetry</a></nav></div><div class="flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-wider text-primary">Missions</span><nav class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="missions" href="#">Artemis Lunar Outpost</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="missions" href="#">Europa Deep Probe</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="missions" href="#">Solar Coronagraph IV</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="discoveries" href="#">Latest Discoveries</a></nav></div><div class="flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-wider text-primary">Publications &amp; Team</span><nav class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="news" href="#">Annals of Astronomy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="news" href="#">Peer-Reviewed Papers</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="about" href="#">Careers &amp; Fellowships</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="contact" href="#">Press Relations</a></nav></div></div><div class="w-full px-gutter py-space-md bg-surface-container-lowest flex flex-col md:flex-row items-center justify-between gap-space-sm"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2026 Space Research Center. All rights reserved. Operating under Inter-Agency Astrophysical Protocols.</p><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">SECURE COMM LAYER 7.4</span><span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">UTC 14:22:09</span></div></div></footer></body></html>
